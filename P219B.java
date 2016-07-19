@@ -4,15 +4,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
 
-public class P437 {
+public class P219B {
 
 	public static void main(String[] args) {
 		InputStream inputStream = System.in;
@@ -27,40 +21,20 @@ public class P437 {
 	static class Task {
 
 		public void solve(InputReader in, PrintWriter out) {
-			int sum = in.nextInt();
-			int lim = in.nextInt();
-			Map<Integer, ArrayList<Integer>> lsbinv = new HashMap<>();
-			for (int i = 1; i <= lim; i++) {
-				int lsb = lsb(i);
-				if (!lsbinv.containsKey(lsb)) lsbinv.put(lsb, new ArrayList<>());
-				lsbinv.get(lsb).add(i);
+			long p = in.nextLong();
+			long d = in.nextLong();
+			long x = p - d;
+			long t = 10;
+			while (x - x % t + (t - 1) <= p) {
+				x = x - x % t + (t - 1);
+				t *= 10;
+				if (t >= Long.MAX_VALUE / 10) break;
 			}
-			Set<Integer> sel = new HashSet<>();
-			int v = 1;
-			while (2 * v <= sum) {
-				v *= 2;
+			t /= 10;
+			while (x <= p && x + t <= p) {
+				x += t;
 			}
-			while (v >= 1) {
-				if (sum >= v && lsbinv.containsKey(v)) {
-					int i = 0;
-					while (sum >= v && i < lsbinv.get(v).size()) {
-						sum -= v;
-						sel.add(lsbinv.get(v).get(i++));
-					}
-				}
-				v /= 2;
-			}
-			if (sum != 0) {
-				out.println("-1");
-			} else {
-				out.println(sel.size());
-				out.println(sel.stream().map(String::valueOf).collect(Collectors.joining(" ")));
-			}
-
-		}
-
-		private int lsb(int i) {
-			return i & -i;
+			out.println(x);
 		}
 	}
 
@@ -87,6 +61,10 @@ public class P437 {
 
 		public int nextInt() {
 			return Integer.parseInt(next());
+		}
+
+		public long nextLong() {
+			return Long.parseLong(next());
 		}
 
 		public String nextLine() {
