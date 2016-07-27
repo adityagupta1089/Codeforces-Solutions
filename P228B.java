@@ -6,7 +6,8 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class P279A {
+public class P228B {
+
 	public static void main(String[] args) {
 		InputStream inputStream = System.in;
 		OutputStream outputStream = System.out;
@@ -18,48 +19,54 @@ public class P279A {
 	}
 
 	static class Task {
+
 		public void solve(InputReader in, PrintWriter out) {
-			int x = 0, y = 0;
-			int xf = in.nextInt(), yf = in.nextInt();
-			int d = 0, l = 1;
-			int x2 = x, y2 = y;
-			while (true) {
-				switch (d % 4) {
-				case 0:
-					x2 = x + l;
-					break;
-				case 1:
-					y2 = y + l;
-					l += 1;
-					break;
-				case 2:
-					x2 = x - l;
-					break;
-				case 3:
-					y2 = y - l;
-					l += 1;
-					break;
+			int na = in.nextInt();
+			int ma = in.nextInt();
+			int[][] a = in.nextIntMatrix(na, ma);
+			int nb = in.nextInt();
+			int mb = in.nextInt();
+			int[][] b = in.nextIntMatrix(nb, mb);
+			int max = 0;
+			int maxx = 0;
+			int maxy = 0;
+			for (int x = 1 - mb; x < ma; x++) {
+				for (int y = 1 - nb; y < na; y++) {
+					int sum = 0;
+					for (int i = Math.max(0, x); i < Math.min(x + mb, ma); i++) {
+						for (int j = Math.max(0, y); j < Math.min(y + nb, na); j++) {
+							sum += a[j][i] * b[j - y][i - x];
+						}
+					}
+					if (sum > max) {
+						max = sum;
+						maxx = x;
+						maxy = y;
+					}
 				}
-				if ((x2 == xf && Math.min(y, y2) <= yf && yf <= Math.max(y, y2))
-						|| (y2 == yf && Math.min(x, x2) <= xf && xf <= Math.max(x, x2))) {
-					break;
-				}
-				d += 1;
-				x = x2;
-				y = y2;
 			}
-			if (x2 == xf || y2 == yf)
-				out.println(d);
+			out.println(-maxy + " " + -maxx);
 		}
 	}
 
 	static class InputReader {
-		public BufferedReader reader;
-		public StringTokenizer tokenizer;
+
+		public BufferedReader	reader;
+		public StringTokenizer	tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);
 			tokenizer = null;
+		}
+
+		public int[][] nextIntMatrix(int m, int n) {
+			int[][] mat = new int[m][n];
+			for (int i = 0; i < m; i++) {
+				String s = nextLine();
+				for (int j = 0; j < s.length(); j++)
+					mat[i][j] = s.charAt(j) - '0';
+			}
+			return mat;
 		}
 
 		public String next() {
@@ -75,6 +82,18 @@ public class P279A {
 
 		public int nextInt() {
 			return Integer.parseInt(next());
+		}
+
+		public long nextLong() {
+			return Long.parseLong(next());
+		}
+
+		public String nextLine() {
+			try {
+				return reader.readLine();
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
 		}
 
 		public int[] nextIntArray(int n) {
