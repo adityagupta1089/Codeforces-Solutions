@@ -3,12 +3,12 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Problem489C {
+public class P489C {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int m = sc.nextInt();
 		int s = sc.nextInt();
-		if ((s < 0&&m==1)||(s<1&&m>1) || s > 9 * m) {
+		if ((s < 0 && m == 1) || (s < 1 && m > 1) || s > 9 * m) {
 			System.out.println("-1 -1");
 			sc.close();
 			return;

@@ -56,7 +56,7 @@ public class P342B {
 						cp++;
 						ct++;
 					}
-				} else {//tr=0
+				} else {// tr=0
 					if (!(l[ti] <= cp && cp <= r[ti]) && !(l[ti] <= cp + 1 && cp + 1 <= r[ti])) {
 						cp++;
 						sb.append(swap ? "L" : "R");
@@ -78,8 +78,8 @@ public class P342B {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

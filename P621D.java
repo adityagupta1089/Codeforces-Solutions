@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProblemD {
+public class P621D {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] exp = new String[] { "x^y^z", "x^z^y", "(x^y)^z", "y^x^z", "y^z^x", "(y^x)^z", "z^x^y", "z^y^x",

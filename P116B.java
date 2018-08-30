@@ -6,9 +6,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class SolutionB {
-	private final static long MI = 1000000007;
-
+public class P116B {
 	public static void main(String[] args) {
 		InputStream inputStream = System.in;
 		OutputStream outputStream = System.out;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem158A {
+public class P158A {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -11,7 +11,7 @@ public class Problem158A {
 		}
 		int m = 0;
 		for (int i = 0; i < n; i++) {
-			if (scores[i] >= scores[k-1] && scores[i] > 0) {
+			if (scores[i] >= scores[k - 1] && scores[i] > 0) {
 				m++;
 			}
 		}

@@ -26,38 +26,29 @@ public class P234B {
 
 	static class Task {
 
+		@SuppressWarnings("deprecation")
 		public void solve(InputReader in, PrintWriter out) {
 			int n = in.nextInt();
 			int k = in.nextInt();
 			int[] a = in.nextIntArray(n);
 			List<Integer> l = new ArrayList<>();
-			IntStream	.range(0, n)
-						.boxed()
-						.collect(Collectors.toMap(i -> i, i -> a[i]))
-						.entrySet()
-						.stream()
-						.sorted(new Comparator<Entry<Integer, Integer>>() {
+			IntStream.range(0, n).boxed().collect(Collectors.toMap(i -> i, i -> a[i])).entrySet().stream()
+					.sorted(new Comparator<Entry<Integer, Integer>>() {
 
-							@Override
-							public int compare(Entry<Integer, Integer> o1, Entry<Integer, Integer> o2) {
-								return o2	.getValue()
-											.compareTo(o1.getValue()); // Note: reverse compare
-							}
-						})
-						.limit(k)
-						.map(i -> new Integer(i.getKey() + 1))
-						.forEachOrdered(l::add);
+						@Override
+						public int compare(Entry<Integer, Integer> o1, Entry<Integer, Integer> o2) {
+							return o2.getValue().compareTo(o1.getValue()); // Note: reverse compare
+						}
+					}).limit(k).map(i -> new Integer(i.getKey() + 1)).forEachOrdered(l::add);
 			out.println(a[l.get(l.size() - 1) - 1]);
-			out.println(l	.stream()
-							.map(String::valueOf)
-							.collect(Collectors.joining(" ")));
+			out.println(l.stream().map(String::valueOf).collect(Collectors.joining(" ")));
 		}
 	}
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

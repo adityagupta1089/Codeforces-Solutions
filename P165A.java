@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class SolutionA {
+public class P165A {
 	// private final static long MI = 1000000007;
 
 	public static void main(String[] args) {

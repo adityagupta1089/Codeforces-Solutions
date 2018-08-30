@@ -31,8 +31,7 @@ public class P151B {
 				String nm = in.next();
 				int tN = 0, pN = 0;
 				for (int j = 0; j < pn; j++) {
-					String sN = in	.nextLine()
-									.replaceAll("-", "");
+					String sN = in.nextLine().replaceAll("-", "");
 					if (taxinum(sN)) {
 						tN++;
 					} else if (pizzanum(sN)) {
@@ -41,27 +40,12 @@ public class P151B {
 				}
 				ps.add(new Person(nm, pn - tN - pN, tN, pN));
 			}
-			int maxt = ps	.stream()
-							.max((x, y) -> x.tN - y.tN)
-							.get().tN;
-			int maxg = ps	.stream()
-							.max((x, y) -> x.gN - y.gN)
-							.get().gN;
-			int maxp = ps	.stream()
-							.max((x, y) -> x.pN - y.pN)
-							.get().pN;
-			String tns = ps	.stream()
-							.filter(x -> x.tN == maxt)
-							.map(x -> x.name)
-							.collect(Collectors.joining(", "));
-			String pns = ps	.stream()
-							.filter(x -> x.pN == maxp)
-							.map(x -> x.name)
-							.collect(Collectors.joining(", "));
-			String gns = ps	.stream()
-							.filter(x -> x.gN == maxg)
-							.map(x -> x.name)
-							.collect(Collectors.joining(", "));
+			int maxt = ps.stream().max((x, y) -> x.tN - y.tN).get().tN;
+			int maxg = ps.stream().max((x, y) -> x.gN - y.gN).get().gN;
+			int maxp = ps.stream().max((x, y) -> x.pN - y.pN).get().pN;
+			String tns = ps.stream().filter(x -> x.tN == maxt).map(x -> x.name).collect(Collectors.joining(", "));
+			String pns = ps.stream().filter(x -> x.pN == maxp).map(x -> x.name).collect(Collectors.joining(", "));
+			String gns = ps.stream().filter(x -> x.gN == maxg).map(x -> x.name).collect(Collectors.joining(", "));
 			out.println("If you want to call a taxi, you should call: " + tns + ".");
 			out.println("If you want to order a pizza, you should call: " + pns + ".");
 			out.println("If you want to go to a cafe with a wonderful girl, you should call: " + gns + ".");
@@ -87,8 +71,8 @@ public class P151B {
 
 		public class Person {
 
-			String	name;
-			int		gN, tN, pN;
+			String name;
+			int gN, tN, pN;
 
 			public Person(String n, int g, int t, int p) {
 				name = n;
@@ -101,8 +85,8 @@ public class P151B {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

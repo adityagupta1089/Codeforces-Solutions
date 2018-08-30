@@ -10,61 +10,61 @@ import java.util.StringTokenizer;
  * @author Aditya
  */
 
-public class Solution {
-    public static void main(String[] args) {
-	InputStream inputStream = System.in;
-	OutputStream outputStream = System.out;
-	InputReader in = new InputReader(inputStream);
-	PrintWriter out = new PrintWriter(outputStream);
-	Task solver = new Task();
-	solver.solve(in, out);
-	out.close();
-    }
+public class P676A {
+	public static void main(String[] args) {
+		InputStream inputStream = System.in;
+		OutputStream outputStream = System.out;
+		InputReader in = new InputReader(inputStream);
+		PrintWriter out = new PrintWriter(outputStream);
+		Task solver = new Task();
+		solver.solve(in, out);
+		out.close();
+	}
 
-    static class Task {
-	public void solve(InputReader in, PrintWriter out) {
-	    int n = in.nextInt();
-	    int[] a = new int[n];
-	    int min = 101, mini = -1;
-	    int max = 1, maxi = -1;
-	    for (int i = 0; i < n; i++) {
-		a[i] = in.nextInt();
-		if (a[i] < min) {
-		    min = a[i];
-		    mini = i;
+	static class Task {
+		public void solve(InputReader in, PrintWriter out) {
+			int n = in.nextInt();
+			int[] a = new int[n];
+			int min = 101, mini = -1;
+			int max = 1, maxi = -1;
+			for (int i = 0; i < n; i++) {
+				a[i] = in.nextInt();
+				if (a[i] < min) {
+					min = a[i];
+					mini = i;
+				}
+				if (a[i] > max) {
+					max = a[i];
+					maxi = i;
+				}
+			}
+			out.println(Math.max(Math.max(mini, n - 1 - mini), Math.max(maxi, n - 1 - maxi)));
 		}
-		if (a[i] > max) {
-		    max = a[i];
-		    maxi = i;
+	}
+
+	static class InputReader {
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
+
+		public InputReader(InputStream stream) {
+			reader = new BufferedReader(new InputStreamReader(stream), 32768);
+			tokenizer = null;
 		}
-	    }
-	    out.println(Math.max(Math.max(mini, n - 1 - mini), Math.max(maxi, n - 1 - maxi)));
-	}
-    }
 
-    static class InputReader {
-	public BufferedReader reader;
-	public StringTokenizer tokenizer;
-
-	public InputReader(InputStream stream) {
-	    reader = new BufferedReader(new InputStreamReader(stream), 32768);
-	    tokenizer = null;
-	}
-
-	public String next() {
-	    while (tokenizer == null || !tokenizer.hasMoreTokens()) {
-		try {
-		    tokenizer = new StringTokenizer(reader.readLine());
-		} catch (IOException e) {
-		    throw new RuntimeException(e);
+		public String next() {
+			while (tokenizer == null || !tokenizer.hasMoreTokens()) {
+				try {
+					tokenizer = new StringTokenizer(reader.readLine());
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+				}
+			}
+			return tokenizer.nextToken();
 		}
-	    }
-	    return tokenizer.nextToken();
-	}
 
-	public int nextInt() {
-	    return Integer.parseInt(next());
-	}
+		public int nextInt() {
+			return Integer.parseInt(next());
+		}
 
-    }
+	}
 }

@@ -28,22 +28,22 @@ public class P754B {
 			}
 			for (int i = 0; i < 4; i++) {
 				for (int j = 0; j < 4; j++) {
-					//right
+					// right
 					if (valid(t, i, j, i, j + 1, i, j + 2)) {
 						out.print("YES");
 						return;
 					}
-					//down
+					// down
 					if (valid(t, i, j, i + 1, j, i + 2, j)) {
 						out.print("YES");
 						return;
 					}
-					//upright
+					// upright
 					if (valid(t, i, j, i - 1, j + 1, i - 2, j + 2)) {
 						out.print("YES");
 						return;
 					}
-					//downright
+					// downright
 					if (valid(t, i, j, i + 1, j + 1, i + 2, j + 2)) {
 						out.print("YES");
 						return;

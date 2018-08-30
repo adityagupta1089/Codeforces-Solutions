@@ -21,15 +21,15 @@ public class P785C {
 		public void solve(InputReader in, PrintWriter out) {
 			long n = in.nextLong();
 			long m = Math.min(n, in.nextLong());
-			long l=0;
-			long r = 1+(long) Math.sqrt(Long.MAX_VALUE);
-			while(l<r){
-				long mid = (l+r)/2;
-				long val = mid*(mid+1)/2;
-				if(val>=n-m){
-					r=mid;
-				}else{
-					l=mid+1;
+			long l = 0;
+			long r = 1 + (long) Math.sqrt(Long.MAX_VALUE);
+			while (l < r) {
+				long mid = (l + r) / 2;
+				long val = mid * (mid + 1) / 2;
+				if (val >= n - m) {
+					r = mid;
+				} else {
+					l = mid + 1;
 				}
 			}
 			System.out.println(m + l);

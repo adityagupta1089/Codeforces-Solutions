@@ -52,8 +52,8 @@ public class P691B {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

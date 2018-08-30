@@ -32,7 +32,8 @@ public class P437 {
 			Map<Integer, ArrayList<Integer>> lsbinv = new HashMap<>();
 			for (int i = 1; i <= lim; i++) {
 				int lsb = lsb(i);
-				if (!lsbinv.containsKey(lsb)) lsbinv.put(lsb, new ArrayList<>());
+				if (!lsbinv.containsKey(lsb))
+					lsbinv.put(lsb, new ArrayList<>());
 				lsbinv.get(lsb).add(i);
 			}
 			Set<Integer> sel = new HashSet<>();
@@ -66,8 +67,8 @@ public class P437 {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class SolutionA {
+public class P233A {
 	// private final static long MI = 1000000007;
 
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class SolutionA {
 				out.println(-1);
 			else
 				for (int i = 0; i < n; i += 2)
-					out.print((i + 2) + " " + (i + 1)+" ");
+					out.print((i + 2) + " " + (i + 1) + " ");
 		}
 	}
 

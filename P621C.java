@@ -1,8 +1,8 @@
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.Scanner;
 
-public class ProblemC {
+public class P621C {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();

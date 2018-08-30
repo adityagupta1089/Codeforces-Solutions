@@ -9,9 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class SolutionA {
-	private final static long MI = 1000000007;
-
+public class P441A {
 	public static void main(String[] args) {
 		InputStream inputStream = System.in;
 		OutputStream outputStream = System.out;

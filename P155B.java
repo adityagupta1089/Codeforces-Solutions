@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class SolutionA {
+public class P155B {
 	// private final static long MI = 1000000007;
 
 	public static void main(String[] args) {

@@ -74,8 +74,8 @@ public class P697C {
 
 		public class Edge {
 
-			long	u;
-			long	v;
+			long u;
+			long v;
 
 			public Edge(long u2, long l) {
 				u = u2;
@@ -90,7 +90,8 @@ public class P697C {
 			@Override
 			public boolean equals(Object obj) {
 				Edge p2 = (Edge) obj;
-				if (u == p2.u && v == p2.v) return true;
+				if (u == p2.u && v == p2.v)
+					return true;
 				return false;
 			}
 
@@ -103,8 +104,8 @@ public class P697C {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

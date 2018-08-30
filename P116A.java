@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem116A {
+public class P116A {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -16,5 +16,6 @@ public class Problem116A {
 			}
 		}
 		System.out.println(max);
+		sc.close();
 	}
 }

@@ -28,7 +28,8 @@ public class P219B {
 			while (x - x % t + (t - 1) <= p) {
 				x = x - x % t + (t - 1);
 				t *= 10;
-				if (t >= Long.MAX_VALUE / 10) break;
+				if (t >= Long.MAX_VALUE / 10)
+					break;
 			}
 			t /= 10;
 			while (x <= p && x + t <= p) {
@@ -40,8 +41,8 @@ public class P219B {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

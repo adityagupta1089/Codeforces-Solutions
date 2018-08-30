@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProblemA {
+public class P632A {
 	enum AppleType {
 		half, halfplus
 	}

@@ -32,21 +32,13 @@ public class P785B {
 			}
 			int max = 0;
 			// chess - prog
-			int a1 = Arrays	.stream(prog)
-							.max((p1, p2) -> Integer.compare(p1.a, p2.a))
-							.get().a;
-			int b1 = Arrays	.stream(chess)
-							.min((p1, p2) -> Integer.compare(p1.b, p2.b))
-							.get().b;
+			int a1 = Arrays.stream(prog).max((p1, p2) -> Integer.compare(p1.a, p2.a)).get().a;
+			int b1 = Arrays.stream(chess).min((p1, p2) -> Integer.compare(p1.b, p2.b)).get().b;
 			int diff = a1 - b1;
 			max = Math.max(max, diff);
-			//prog - chess
-			int a2 = Arrays	.stream(chess)
-							.max((p1, p2) -> Integer.compare(p1.a, p2.a))
-							.get().a;
-			int b2 = Arrays	.stream(prog)
-							.min((p1, p2) -> Integer.compare(p1.b, p2.b))
-							.get().b;
+			// prog - chess
+			int a2 = Arrays.stream(chess).max((p1, p2) -> Integer.compare(p1.a, p2.a)).get().a;
+			int b2 = Arrays.stream(prog).min((p1, p2) -> Integer.compare(p1.b, p2.b)).get().b;
 			diff = a2 - b2;
 			max = Math.max(max, diff);
 			System.out.println(max);

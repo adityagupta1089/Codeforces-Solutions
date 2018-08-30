@@ -21,7 +21,7 @@ public class P283A {
 		public void solve(InputReader in, PrintWriter out) {
 			int an = 0;
 			int len = 1;
-			int[] d = new int[2000000];//d[i]=a[i+1]-a[i]
+			int[] d = new int[2000000];// d[i]=a[i+1]-a[i]
 			int ind = 0;
 			int t = in.nextInt();
 			long sum = 0;

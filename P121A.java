@@ -36,22 +36,22 @@ public class P121A {
 			boolean flag = false;
 			for (int i = 0; i < s.length(); i++) {
 				char c = s.charAt(i);
-				if (!flag && (c == '4' || c == '7')) {//4,7
+				if (!flag && (c == '4' || c == '7')) {// 4,7
 					t.append(c);
-				} else if (!flag && c < '4') {//0,1,2,3
+				} else if (!flag && c < '4') {// 0,1,2,3
 					t.append('4');
 					flag = true;
-				} else if (!flag && c < '7') {//5,6
+				} else if (!flag && c < '7') {// 5,6
 					t.append('7');
 					flag = true;
-				} else if (flag) {//8,9
+				} else if (flag) {// 8,9
 					t.append('4');
 				} else {
 					boolean flag2 = false;
 					for (int j = t.length() - 1; j >= 0; j--) {
-						if (t.charAt(j) == '7') {//7
+						if (t.charAt(j) == '7') {// 7
 							t.setCharAt(j, '4');
-						} else {//4
+						} else {// 4
 							t.setCharAt(j, '7');
 							flag2 = true;
 							break;

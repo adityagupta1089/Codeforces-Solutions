@@ -32,7 +32,7 @@ public class P231C {
 			int num = a[n - 1];
 			int tdiff = 0;
 			int occ = 1;
-			while (i >= 0 && j >= 0) {//0 2 3 4 6
+			while (i >= 0 && j >= 0) {// 0 2 3 4 6
 				if (tdiff + num - a[j] <= k) {
 					tdiff += num - a[j];
 					occ++;

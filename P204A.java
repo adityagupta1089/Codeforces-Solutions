@@ -27,7 +27,7 @@ public class P204A {
 			if (l < 10 && r <= 10) {
 				out.println(Math.min(9, r) - l + 1);
 				return;
-			} else if (l < 10/*&&r>10*/) {
+			} else if (l < 10/* &&r>10 */) {
 				total += 10 - l;
 				l = 11;
 			}
@@ -36,7 +36,7 @@ public class P204A {
 			char le = sl.charAt(sl.length() - 1);
 			if (ls >= le) {
 				sl.setCharAt(sl.length() - 1, ls);
-			} else /*(ls<le)*/ {
+			} else /* (ls<le) */ {
 				if (sl.length() > 2)
 					total += (long) (Math.pow(10, sl.length() - 2) - Long.valueOf(sl.substring(1, sl.length() - 1)))
 							- 1;

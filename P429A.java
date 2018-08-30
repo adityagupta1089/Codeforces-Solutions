@@ -23,6 +23,7 @@ public class P429A {
 	}
 
 	static class Task {
+		@SuppressWarnings("deprecation")
 		public void solve(InputReader in, PrintWriter out) {
 			int n = in.nextInt();
 			Node[] nodes = new Node[n];

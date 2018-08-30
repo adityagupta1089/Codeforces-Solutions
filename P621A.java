@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ProblemA {
+public class P621A {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

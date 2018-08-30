@@ -30,14 +30,14 @@ public class P697A {
 			} else {
 				out.println("NO");
 			}
-			//3 13 14 23 24 33 34 43 44 53 54
+			// 3 13 14 23 24 33 34 43 44 53 54
 		}
 	}
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

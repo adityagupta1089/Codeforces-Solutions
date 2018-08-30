@@ -33,7 +33,8 @@ public class P205B {
 			}
 			long sum = b[0];
 			for (int i = 1; i < b.length; i++) {
-				if (b[i] > b[i - 1]) sum += b[i] - b[i - 1];
+				if (b[i] > b[i - 1])
+					sum += b[i] - b[i - 1];
 			}
 			out.println(sum);
 		}
@@ -41,8 +42,8 @@ public class P205B {
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

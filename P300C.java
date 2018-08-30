@@ -50,7 +50,7 @@ public class P300C {
 			out.println(totalWays % M);
 		}
 
-		private long modPow(int x, long n, long p) {//O(log n)
+		private long modPow(int x, long n, long p) {// O(log n)
 			if (n == 1)
 				return x;
 			else if ((n & 1) == 0) {

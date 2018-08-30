@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class SolutionA {
+public class P688A {
 	// private final static long MI = 1000000007;
 
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class SolutionA {
 
 	public static class Task {
 		public void solve(InputReader in, PrintWriter out) {
-			int n = in.nextInt();
+			in.nextInt();
 			int d = in.nextInt();
 			int maxcnt = 0;
 			int cnt = 0;

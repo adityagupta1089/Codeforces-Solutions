@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class SolutionA {
+public class P483A {
 	// private final static long MI = 1000000007;
 
 	public static void main(String[] args) {

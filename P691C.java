@@ -26,7 +26,8 @@ public class P691C {
 				s += ".0";
 			else if (s.charAt(0) == '.')
 				s = "0" + s;
-			else if (s.charAt(s.length() - 1) == '.') s += "0";
+			else if (s.charAt(s.length() - 1) == '.')
+				s += "0";
 			int i = 0;
 			int dp = -1;
 			while (s.charAt(i) == '0' && i < s.length()) {
@@ -44,7 +45,8 @@ public class P691C {
 			while (i < s.length()) {
 				if (s.charAt(i) != '.') {
 					s2.append(s.charAt(i));
-					if (ini == -1) ini = i;
+					if (ini == -1)
+						ini = i;
 				} else if (s.charAt(i) == '.') {
 					dp = i;
 				}
@@ -62,15 +64,16 @@ public class P691C {
 			while (s3.charAt(s3.length() - 1) == '0' || s3.charAt(s3.length() - 1) == '.') {
 				s3.deleteCharAt(s3.length() - 1);
 			}
-			if (pow != 0) s3.append("E" + pow);
+			if (pow != 0)
+				s3.append("E" + pow);
 			out.println(s3.toString());
 		}
 	}
 
 	static class InputReader {
 
-		public BufferedReader	reader;
-		public StringTokenizer	tokenizer;
+		public BufferedReader reader;
+		public StringTokenizer tokenizer;
 
 		public InputReader(InputStream stream) {
 			reader = new BufferedReader(new InputStreamReader(stream), 32768);

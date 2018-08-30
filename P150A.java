@@ -30,7 +30,7 @@ public class P150A {
 			int d2 = Long.numberOfTrailingZeros(q);
 			dc += d2;
 			if (d2 == 0) {
-				/*do nothing*/
+				/* do nothing */
 			} else if (d2 == 1) {
 				m = 2;
 				dc = 1;

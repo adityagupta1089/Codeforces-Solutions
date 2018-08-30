@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ProblemB {
+public class P625B {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String g = sc.next();
