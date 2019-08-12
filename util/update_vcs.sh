@@ -1,5 +1,5 @@
 new=$(find -X ../src -name "P*.java")
-echo $new | xargs -I{} cp {} ../Codeforces\ Solutions/
+echo $new | xargs -I{} mv {} ../Codeforces\ Solutions/
 git add --all
 msg=$(find -X ../src -name "P*.java" \
   | sed -nE "s/.*\/(.*)\.java/\1/ p" \
