@@ -15,7 +15,7 @@ for file in os.listdir('../src'):
             xs = []
             ys = []
             for test in soup.find("div", class_="sample-test").contents:
-                value = str(test.pre.string).strip("\n\r")
+                value = "\n".join(test.pre.find_all(text=True))
                 if test.div.string == "Input":
                     xs.append(value)
                 elif test.div.string == "Output":
