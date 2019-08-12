@@ -1,2 +1,11 @@
+.bin/
+!.idea/codeStyles/**/*
+!.idea/fileTemplates/**/*
+!.idea
+.idea/
+.settings/
+.vscode/
 bin/
-*.class
+.classpath
+.project
+*.iml
