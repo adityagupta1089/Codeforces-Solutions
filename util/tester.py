@@ -30,6 +30,7 @@ for file in os.listdir("../bin"):
                 p = subprocess.run(("java -cp ../bin " + str(name)).split(), stdout=subprocess.PIPE, encoding="ascii",
                                    input=testcase["in"])
                 res = p.stdout.strip("\r\n")
+                testcase["out"] = re.sub("\\s*\n", "\n", testcase["out"])
                 if res != testcase["out"]:
                     prRed("Failed testcase")
                     prPurple("Input")
