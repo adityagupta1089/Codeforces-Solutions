@@ -9,6 +9,7 @@ for file in os.listdir('../src'):
         problem = re.search(r"(\d+)(\w)", file)
         if problem:
             num, lev = problem.groups()
+            print("Problem %s%s" %(num, lev))
             url = "https://codeforces.com/problemset/problem/%s/%s" % (num, lev)
             page = requests.get(url)
             soup = BeautifulSoup(page.text, 'html.parser')
