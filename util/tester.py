@@ -17,6 +17,7 @@ def prPurple(skk):
 
 
 for file in os.listdir("../bin"):
+    print(file)
     if re.match(r"P\d+\w\.class", file):
         problem = re.search(r"(\d+)(\w)", file)
         if problem:
