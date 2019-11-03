@@ -6,7 +6,6 @@ bin/
 .idea/misc.xml
 
 .settings/
-.vscode/
 
 .classpath
 .project
