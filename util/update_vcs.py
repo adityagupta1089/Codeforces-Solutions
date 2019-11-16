@@ -20,7 +20,8 @@ for file in os.listdir("../src"):
         new_files.append(file.split(".")[0][1:])
         os.rename('../src/{}'.format(file), '../Codeforces Solutions/{}'.format(file))
 
-print(subprocess.run(["git", "add", "--all"]))
-print(subprocess.run(["git", "status"]))
-print(subprocess.run(["git", "commit", "-m", "Added {}".format(", ".join(new_files))]))
-print(subprocess.run(["git", "push"]))
+subprocess.run(["git", "add", "--all"])
+subprocess.run(["git", "status"])
+commit_message = "Added {}".format(", ".join(new_files)) if len(new_files) > 0 else "Minor Changes"
+subprocess.run(["git", "commit", "-m", commit_message])
+subprocess.run(["git", "push"])
