@@ -10,3 +10,4 @@ src/
 test/
 venv/
 cmake-build-debug
+Debug/
