@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "SConscript": "python",
+        "SConstruct": "python",
+        "makefile*": "makefile",
+        "iostream": "cpp",
+        "unordered_map": "cpp",
+        "functional": "cpp",
+        "numeric": "cpp",
+        "new": "cpp",
+        "memory": "cpp",
+        "utility": "cpp",
+        "map": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp"
+    }
+}
