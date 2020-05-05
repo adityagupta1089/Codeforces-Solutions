@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cstring>
 #include <iostream>
 
 using namespace std;
@@ -9,21 +10,14 @@ int main() {
     cin >> n >> m;
     bool mat[n][m];
     int col_vals[m][m + 1];
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j <= m; j++) {
-            col_vals[i][j] = 0;
-        }
-    }
+    memset(col_vals, 0, sizeof(int) * m * (m + 1));
     for (int i = 0; i < n; i++) {
         string c;
         cin >> c;
         int cs = 0;
         for (int j = 0; j < m; j++) {
             mat[i][j] = c[j] == '1';
-            if (mat[i][j])
-                cs++;
-            else
-                cs = 0;
+            cs = mat[i][j] ? cs + 1 : 0;
             col_vals[j][cs]++;
         }
     }
