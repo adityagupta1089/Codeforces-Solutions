@@ -12,6 +12,13 @@
         "utility": "cpp",
         "map": "cpp",
         "algorithm": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "unordered_set": "cpp",
+        "type_traits": "cpp",
+        "queue": "cpp",
+        "ios": "cpp",
+        "__hash_table": "cpp",
+        "__node_handle": "cpp",
+        "set": "cpp"
     }
 }
