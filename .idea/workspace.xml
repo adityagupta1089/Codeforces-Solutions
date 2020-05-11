@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Codeforces_Solutions" targetName="Codeforces_Solutions" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e796bb7-8c44-4a7e-9c86-c6dfbfbb9dd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1S1l9xDkuuH1khKyXtg08UbBHuF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;ObjectiveC" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Codeforces-Solutions" sdk-home="$PROJECT_DIR$/venv/bin/python">
+        <option name="mySdkHome" value="$PROJECT_DIR$/venv/bin/python" />
+        <option name="myModuleName" value="Codeforces-Solutions" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Codeforces Solutions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Codeforces_Solutions">
+    <configuration name="P1243E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1243E" />
+      <module name="Codeforces-Solutions" />
+      <option name="VM_PARAMETERS" value="-Xmx512M -Xss64M" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Codeforces_Solutions" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces_Solutions" TARGET_NAME="Codeforces_Solutions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Codeforces_Solutions" RUN_TARGET_NAME="Codeforces_Solutions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Codeforces_Solutions" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e796bb7-8c44-4a7e-9c86-c6dfbfbb9dd2" name="Default Changelist" comment="" />
+      <created>1573378482874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573378482874</updated>
+      <workItem from="1574347983504" duration="173000" />
+      <workItem from="1574776094691" duration="616000" />
+      <workItem from="1574901862858" duration="36000" />
+      <workItem from="1583740688344" duration="487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cpp" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+    <option featureType="com.intellij.configurationType" implementationName="Application" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.project" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575906226536">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1575906226536" />
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575908572269">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1575908572269" />
+    <state x="689" y="184" width="545" height="579" key="#xdebugger.evaluate" timestamp="1575911706248">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="689" y="184" width="545" height="579" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1575911706248" />
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom" timestamp="1577127565765">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
+    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1577127565765" />
+    <state width="1398" height="253" key="GridCell.Tab.0.center" timestamp="1577127565763">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
+    <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1577127565763" />
+    <state width="1398" height="253" key="GridCell.Tab.0.left" timestamp="1577127565749">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1576616603500" />
+    <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1577127565749" />
+    <state width="1398" height="253" key="GridCell.Tab.0.right" timestamp="1577127565763">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
+    <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1577127565763" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1577127565795">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1576616575332" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.802@0.23.1440.802" timestamp="1577127565795" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1577127565788">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1576616575331" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.802@0.23.1440.802" timestamp="1577127565788" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1577127565783">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1576616575331" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.802@0.23.1440.802" timestamp="1577127565783" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1577127565789">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1576616575332" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.802@0.23.1440.802" timestamp="1577127565789" />
+    <state x="229" y="23" width="1039" height="722" key="SettingsEditor" timestamp="1576533094245">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="23" width="1039" height="722" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1576533094245" />
+    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575909083014">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1575909083014" />
+    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575882063008">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1575882063008" />
+    <state x="426" y="44" width="556" height="718" key="refactoring.ChangeSignatureDialog" timestamp="1576614447803">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="426" y="44" width="556" height="718" key="refactoring.ChangeSignatureDialog/0.23.1440.797@0.23.1440.797" timestamp="1576614447803" />
+    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup" timestamp="1583815324208">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1576612664293" />
+    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1583815324208" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="boxes[1]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

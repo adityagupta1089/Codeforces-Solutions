@@ -20,5 +20,6 @@
         "__hash_table": "cpp",
         "__node_handle": "cpp",
         "set": "cpp"
-    }
+    },
+    "python.formatting.provider": "black"
 }

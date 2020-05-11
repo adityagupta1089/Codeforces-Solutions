@@ -1,12 +1,9 @@
 bin/
-.idea/
-.settings/
 .classpath
 .project
 .cproject
 *.iml
-src/
-test/
 venv/
+test/
 cmake-build-debug
 Debug/
