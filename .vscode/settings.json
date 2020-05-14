@@ -19,7 +19,9 @@
         "ios": "cpp",
         "__hash_table": "cpp",
         "__node_handle": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "vector": "cpp",
+        "tuple": "cpp"
     },
     "python.formatting.provider": "black"
 }
