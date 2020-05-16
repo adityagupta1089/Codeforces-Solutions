@@ -7,3 +7,4 @@ venv/
 test/
 cmake-build-debug
 Debug/
+draft/

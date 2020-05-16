@@ -21,7 +21,8 @@
         "__node_handle": "cpp",
         "set": "cpp",
         "vector": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "iosfwd": "cpp"
     },
     "python.formatting.provider": "black"
 }
