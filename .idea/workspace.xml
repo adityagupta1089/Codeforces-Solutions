@@ -11,8 +11,97 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e796bb7-8c44-4a7e-9c86-c6dfbfbb9dd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="a1c9ca19-7495-4414-8951-b1af010c9be6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #52 (Div. 2)/P56A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #52 (Div. 2)/P56B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #52 (Div. 2)/P56C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #54 (Div. 2)/P58A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #54 (Div. 2)/P58B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #54 (Div. 2)/P58C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #57 (Div. 2)/P61B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #59 (Div. 2)/P63B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #61 (Div. 2)/P66B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #63 (Div. 2)/P69A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #63 (Div. 2)/P69B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #65 (Div. 2)/P71A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #65 (Div. 2)/P71C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #67 (Div. 2)/P75A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #67 (Div. 2)/P75B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #69 (Div. 1 Only)/P77A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #72 (Div. 1 Only)/P83A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #73 (Div. 1 Only)/P87A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #73 (Div. 2 Only)/P88A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #75 (Div. 1 Only)/P91A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #76 (Div. 2 Only)/P94B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #77 (Div. 1 Only)/P95A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #77 (Div. 2 Only)/P96A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #77 (Div. 2 Only)/P96B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #78 (Div. 1 Only)/P98A.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #78 (Div. 2 Only)/P99B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #80 (Div. 1 Only)/P103A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #82 (Div. 2)/P106A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #83 (Div. 1 Only)/P107A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #83 (Div. 2 Only)/P108A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #84 (Div. 1 Only)/P109A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #84 (Div. 2 Only)/P110B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #85 (Div. 2 Only)/P112A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #86 (Div. 1 Only)/P113A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #86 (Div. 2 Only)/P114A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #86 (Div. 2 Only)/P114B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #87 (Div. 2 Only)/P116A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #87 (Div. 2 Only)/P116B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #89 (Div. 2)/P118A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #89 (Div. 2)/P118D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #91 (Div. 1 Only)/P121A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #91 (Div. 2 Only)/P122A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #91 (Div. 2 Only)/P122B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #92 (Div. 1 Only)/P123A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #93 (Div. 1 Only)/P126B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #94 (Div. 2 Only)/P129B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #95 (Div. 2)/P131A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #96 (Div. 2)/P133A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #96 (Div. 2)/P133B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #97 (Div. 1)/P135A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #97 (Div. 2)/P136A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #98 (Div. 2)/P137C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 051-100/Codeforces Beta Round #99 (Div. 1)/P138A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 251-300/Codeforces Round #253 (Div. 1)/P442B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 601-650/Codeforces Round #642 (Div. 3)/P1353E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 601-650/Codeforces Round #642 (Div. 3)/P1353Ev2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #1/P1A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #1/P1A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #14 (Div. 2)/P14B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #14 (Div. 2)/P14B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #18 (Div. 2 Only)/P18A.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #18 (Div. 2 Only)/P18A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #18 (Div. 2 Only)/P18C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #18 (Div. 2 Only)/P18C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #22 (Div. 2 Only)/P22B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #22 (Div. 2 Only)/P22B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #25 (Div. 2 Only)/P25A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #25 (Div. 2 Only)/P25A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #27 (Codeforces format, Div. 2)/P27A.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #27 (Codeforces format, Div. 2)/P27A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #27 (Codeforces format, Div. 2)/P27B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #27 (Codeforces format, Div. 2)/P27B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #29 (Div. 2, Codeforces format)/P29B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #29 (Div. 2, Codeforces format)/P29B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #29 (Div. 2, Codeforces format)/P29C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #29 (Div. 2, Codeforces format)/P29C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31A.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #31 (Div. 2, Codeforces format)/P31C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #32 (Div. 2, Codeforces format)/P32C.hs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #32 (Div. 2, Codeforces format)/P32C.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #34 (Div. 2)/P34A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #34 (Div. 2)/P34A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #34 (Div. 2)/P34B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #34 (Div. 2)/P34B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #35 (Div. 2)/P35A.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #35 (Div. 2)/P35A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #35 (Div. 2)/P35C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #35 (Div. 2)/P35C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #4 (Div. 2 Only)/P4A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #4 (Div. 2 Only)/P4A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #4 (Div. 2 Only)/P4B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #4 (Div. 2 Only)/P4B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #40 (Div. 2)/P41B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #40 (Div. 2)/P41B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #42 (Div. 2)/P43A.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #42 (Div. 2)/P43A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #44 (Div. 2)/P47C.hs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #44 (Div. 2)/P47C.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #46 (Div. 2)/P49A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #46 (Div. 2)/P49A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #46 (Div. 2)/P49C.hs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #46 (Div. 2)/P49C.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #47/P50A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #47/P50A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #49 (Div. 2)/P53B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #49 (Div. 2)/P53B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #49 (Div. 2)/P53C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #49 (Div. 2)/P53C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #9 (Div. 2 Only)/P9B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #9 (Div. 2 Only)/P9B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 1-50/Codeforces Beta Round #9 (Div. 2 Only)/P9C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces Rounds/Codeforces Round 001-050/Codeforces Beta Round #9 (Div. 2 Only)/P9C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +125,6 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -63,11 +151,11 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -85,11 +173,18 @@
       <recent name="$PROJECT_DIR$/Codeforces Solutions" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Codeforces_Solutions">
+  <component name="RunManager" selected="Application.P1350D">
     <configuration name="P1243E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P1243E" />
       <module name="Codeforces-Solutions" />
       <option name="VM_PARAMETERS" value="-Xmx512M -Xss64M" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1350D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1350D" />
+      <module name="Codeforces-Solutions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,12 +195,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Codeforces_Solutions" />
+      <item itemvalue="Application.P1243E" />
+      <item itemvalue="Application.P1350D" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P1350D" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0e796bb7-8c44-4a7e-9c86-c6dfbfbb9dd2" name="Default Changelist" comment="" />
+      <changelist id="a1c9ca19-7495-4414-8951-b1af010c9be6" name="Default Changelist" comment="" />
       <created>1573378482874</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -114,11 +215,13 @@
       <workItem from="1574776094691" duration="616000" />
       <workItem from="1574901862858" duration="36000" />
       <workItem from="1583740688344" duration="487000" />
+      <workItem from="1589838376616" duration="337000" />
+      <workItem from="1589838734645" duration="1893000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cpp" />
@@ -139,79 +242,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575906226536">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1575906226536" />
-    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575908572269">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1575908572269" />
-    <state x="689" y="184" width="545" height="579" key="#xdebugger.evaluate" timestamp="1575911706248">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="689" y="184" width="545" height="579" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1575911706248" />
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom" timestamp="1577127565765">
+    <state x="208" y="23" key="#Project_Structure" timestamp="1589838428401">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
-    <state width="1398" height="253" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1577127565765" />
-    <state width="1398" height="253" key="GridCell.Tab.0.center" timestamp="1577127565763">
+    <state x="208" y="23" key="#Project_Structure/0.23.1440.802@0.23.1440.802" timestamp="1589838428401" />
+    <state x="520" y="289" key="#Scopes" timestamp="1589837935467">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
-    <state width="1398" height="253" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1577127565763" />
-    <state width="1398" height="253" key="GridCell.Tab.0.left" timestamp="1577127565749">
+    <state x="520" y="289" key="#Scopes/0.23.1440.802@0.23.1440.802" timestamp="1589837935467" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1589841019756">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1576616603500" />
-    <state width="1398" height="253" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1577127565749" />
-    <state width="1398" height="253" key="GridCell.Tab.0.right" timestamp="1577127565763">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1589841019756" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1589841019756">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1576616603501" />
-    <state width="1398" height="253" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1577127565763" />
-    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1577127565795">
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1589841019756" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1589841019755">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1576616575332" />
-    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.802@0.23.1440.802" timestamp="1577127565795" />
-    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1577127565788">
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1589841019755" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1589841019756">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1576616575331" />
-    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.802@0.23.1440.802" timestamp="1577127565788" />
-    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1577127565783">
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1589841019756" />
+    <state x="221" y="23" key="SettingsEditor" timestamp="1589839998017">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1576616575331" />
-    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.802@0.23.1440.802" timestamp="1577127565783" />
-    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1577127565789">
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1589839998017" />
+    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup" timestamp="1589838571405">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
-    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1576616575332" />
-    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.802@0.23.1440.802" timestamp="1577127565789" />
-    <state x="229" y="23" width="1039" height="722" key="SettingsEditor" timestamp="1576533094245">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="229" y="23" width="1039" height="722" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1576533094245" />
-    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575909083014">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1575909083014" />
-    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575882063008">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="100" y="123" width="1240" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1575882063008" />
-    <state x="426" y="44" width="556" height="718" key="refactoring.ChangeSignatureDialog" timestamp="1576614447803">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="426" y="44" width="556" height="718" key="refactoring.ChangeSignatureDialog/0.23.1440.797@0.23.1440.797" timestamp="1576614447803" />
-    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup" timestamp="1583815324208">
-      <screen x="0" y="23" width="1440" height="802" />
-    </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1576612664293" />
-    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1583815324208" />
+    <state x="385" y="145" width="670" height="681" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1589838571405" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
