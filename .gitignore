@@ -7,4 +7,9 @@ venv/
 test/
 cmake-build-debug
 Debug/
+.idea/*
+!.idea/codeStyles
+!.idea/fileTemplates
 draft/
+input.txt
+output.txt
