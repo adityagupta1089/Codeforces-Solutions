@@ -1,47 +1,28 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class ${NAME} {
+public class P1359A {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-        solver.solve(in, out);
+        boolean debug = !Boolean.parseBoolean(System.getProperty("ONLINE_JUDGE"));
+        solver.solve(in, out, debug);
         out.close();
     }
 
     static class Task {
-        public void solve(InputReader in, PrintWriter out) {
-
-        }
-    }
-
-    static class Pair<T, U> {
-        T a;
-        U b;
-
-        public Pair(T a, U u) {
-            this.a = a;
-            this.b = u;
-        }
-
-        public String toString() {
-            return "(" + a + "," + b + ")";
-        }
-
-        public boolean equals(Object other) {
-            Pair otherPair = (Pair) other;
-            return otherPair.a == this.a && otherPair.b == b;
-        }
-
-        public int hashCode() {
-            return a.hashCode() * 31 + b.hashCode();
-        }
-
-        public static <A, B> Pair<A, B> of(A a, B b) {
-            return new Pair<>(a, b);
+        public void solve(InputReader in, PrintWriter out, boolean debug) {
+            int t = in.nextInt();
+            for (int i = 0; i < t; i++) {
+                int n = in.nextInt(), m = in.nextInt(), k = in.nextInt();
+                int a = Math.min(m, n / k);
+                int b = (int) Math.ceil((m - a) / (double) (k - 1));
+                //out.printf("a=%d, b=%d\n", a, b);
+                out.println(a - b);
+            }
         }
     }
 
@@ -83,15 +64,17 @@ public class ${NAME} {
 
         public int[] nextIntArray(int n) {
             int[] arr = new int[n];
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) {
                 arr[i] = nextInt();
+            }
             return arr;
         }
-        
+
         public long[] nextLongArray(int n) {
             long[] arr = new long[n];
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) {
                 arr[i] = nextLong();
+            }
             return arr;
         }
 

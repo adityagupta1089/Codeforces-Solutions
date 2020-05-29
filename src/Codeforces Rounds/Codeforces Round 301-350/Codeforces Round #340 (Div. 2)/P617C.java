@@ -1,20 +1,42 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class ${NAME} {
+public class P617C {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-        solver.solve(in, out);
+        boolean debug = !Boolean.parseBoolean(System.getProperty("ONLINE_JUDGE"));
+        solver.solve(in, out, debug);
         out.close();
     }
 
     static class Task {
-        public void solve(InputReader in, PrintWriter out) {
+        public void solve(InputReader in, PrintWriter out, boolean debug) {
+            int n = in.nextInt(), x1 = in.nextInt(), y1 = in.nextInt(), x2 = in.nextInt(), y2 = in.nextInt();
+            ArrayList<Pair<Long, Long>> distances = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                long x = in.nextInt(), y = in.nextInt();
+                long d1 = dis(x - x1, y - y1), d2 = dis(x - x2, y - y2);
+                distances.add(new Pair<>(d1, d2));
+            }
+            distances.sort(Comparator.comparing(p -> p.a));
+            long otherMax = 0, minSum = Long.MAX_VALUE;
+            for (int i = n - 1; i >= 0; i--) {
+                var p = distances.get(i);
+                minSum = Math.min(minSum, p.a + otherMax);
+                otherMax = Math.max(otherMax, p.b);
+            }
+            minSum = Math.min(minSum, otherMax);
+            out.println(minSum);
+        }
 
+        private long dis(long x, long y) {
+            return x * x + y * y;
         }
     }
 
@@ -83,15 +105,17 @@ public class ${NAME} {
 
         public int[] nextIntArray(int n) {
             int[] arr = new int[n];
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) {
                 arr[i] = nextInt();
+            }
             return arr;
         }
-        
+
         public long[] nextLongArray(int n) {
             long[] arr = new long[n];
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) {
                 arr[i] = nextLong();
+            }
             return arr;
         }
 
