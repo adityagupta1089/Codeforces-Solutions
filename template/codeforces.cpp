@@ -1,5 +1,4 @@
-#ifndef ONLINE_JUDGE
-
+#include <algorithm>
 #include <cstring>
 #include <iostream>
 #include <map>
@@ -9,12 +8,6 @@
 #include <string>
 #include <unordered_map>
 #include <unordered_set>
-
-#else
-
-#include <bits/stdc++.h>
-
-#endif
 
 using namespace std;
 
