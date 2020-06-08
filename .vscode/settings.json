@@ -44,6 +44,7 @@
   },
   "fileTemplates.templates_dir": "/Users/ap/Documents/Codeforces-Solutions/template",
   "code-runner.executorMap": {
+    "haskell": "stack runhaskell",
     "cpp": "cd $dir && g++ -g -std=c++17 -fsanitize=address -fsanitize=undefined $fileName -o ../bin/$fileNameWithoutExt && ../bin/$fileNameWithoutExt"
-  },
+  }
 }

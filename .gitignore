@@ -13,3 +13,6 @@ Debug/
 draft/
 input.txt
 output.txt
+.stack-work
+b.in
+b.out
