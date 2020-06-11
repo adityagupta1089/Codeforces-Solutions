@@ -1,0 +1,19 @@
+name: Codeforces-Solutions
+version: 1.0
+github: "adityagupta1089/Codeforces-Solutions"
+license: MIT
+author: "Aditya Gupta"
+maintainer: "adityagupta1089@gmail.com"
+copyright: "2020 Aditya Gupta"
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+
+library:
+  source-dirs:
+    - solved
+    - solving
+    - onhold
