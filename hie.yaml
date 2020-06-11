@@ -1,0 +1,4 @@
+cradle:
+  stack:
+dependencies:
+  - random-1.1
