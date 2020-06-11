@@ -2,6 +2,9 @@ bin/
 .classpath
 .project
 .cproject
+.vscode/*
+!.vscode/cpp.code-snippets
+!.vscode/settings.json
 *.iml
 venv/
 test/
@@ -14,5 +17,5 @@ draft/
 input.txt
 output.txt
 .stack-work
-b.in
-b.out
+*.in
+*.out
