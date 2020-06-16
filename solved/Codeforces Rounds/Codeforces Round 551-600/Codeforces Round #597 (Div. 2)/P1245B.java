@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-public class Scratch {
+public class P1245B {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int     t  = in.nextInt();
+        int t = in.nextInt();
         while (t-- > 0) {
             int n = in.nextInt();
             int a = in.nextInt(); //R
             int b = in.nextInt(); //P
             int c = in.nextInt(); //S
             in.nextLine();
-            String s   = in.nextLine();
-            int    w   = 0;
+            String s = in.nextLine();
+            int w = 0;
             char[] ans = new char[s.length()];
-            int    i   = 0;
+            int i = 0;
             for (char ch : s.toCharArray()) {
                 if (ch == 'R' && b > 0) {
                     ans[i] = 'P';
