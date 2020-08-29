@@ -1,42 +1,58 @@
-import java.util.Arrays;
-
 public class Solution {
 
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        int[][] cost = new int[k + 2][n];
-        int inf = 999999 + 1;
-        for (int i = 0; i <= k + 1; i++) {
-            Arrays.fill(cost[i], inf);
-            cost[i][src] = 0;
-        }
-        for (int i = 1; i <= k + 1; i++) {
-            for (var flight : flights) {
-                int start = flight[0], end = flight[1], weight = flight[2];
-                cost[i][end] = Math.min(cost[i][end], cost[i - 1][start] + weight);
+    public int calculateMinimumHP(int[][] a) {
+        int n = a.length;
+        int m = a[0].length;
+        int[][] dp = new int[n][m];
+        int[][] h = new int[n][m];
+        dp[0][0] = 1 - Math.min(0, a[0][0]);
+        h[0][0] = a[0][0];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (i == 0 && j == 0) {
+                    continue;
+                }
+                int dpVal = Integer.MAX_VALUE;
+                if (i > 0) {
+                    int h2 = h[i - 1][j] + a[i][j];
+                    int v = Math.max(1 - Math.min(0, h2), dp[i - 1][j]);
+                    if (v < dpVal) {
+                        dpVal = v;
+                        h[i][j] = h2;
+                    }
+                }
+                if (j > 0) {
+                    int h2 = h[i][j - 1] + a[i][j];
+                    int v = Math.max(1 - Math.min(0, h2), dp[i][j - 1]);
+                    if (v < dpVal) {
+                        dpVal = v;
+                        h[i][j] = h2;
+                    }
+                }
+                dp[i][j] = dpVal;
             }
         }
-        return cost[k + 1][dst] == inf ? -1 : cost[k + 1][dst];
+        printArray(a);
+        printArray(dp);
+        printArray(h);
+        return dp[n - 1][m - 1];
+    }
+
+    private void printArray(int[][] ass) {
+        for (var as : ass) {
+            for (int a : as) {
+                System.out.printf("%4s ", a);
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().findCheapestPrice(3,
-                new int[][]{{0, 1, 100}, {1, 2, 100}, {0, 2, 500}},
-                0,
-                2,
-                1
-        ));
-        System.out.println(new Solution().findCheapestPrice(3,
-                new int[][]{{0, 1, 100}, {1, 2, 100}, {0, 2, 500}},
-                0,
-                2,
-                0
-        ));
-        System.out.println(new Solution().findCheapestPrice(10,
-                new int[][]{{0, 1, 20}, {1, 2, 20}, {2, 3, 30}, {3, 4, 30}, {4, 5, 30}, {5, 6, 30}, {6, 7, 30}, {7, 8, 30}, {8, 9, 30}, {0, 2, 9999}, {2, 4, 9998}, {4, 7, 9997}},
-                0,
-                9,
-                4
-        ));
+        Solution sol = new Solution();
+        System.out.println(sol.calculateMinimumHP(new int[][]{{-2, -3, 3}, {-5, -10, 1}, {10, 30, -5}}));
+        System.out.println(sol.calculateMinimumHP(new int[][]{{-3, 5}}));
+        System.out.println(sol.calculateMinimumHP(new int[][]{{0, 0, 0}, {1, 1, -1}}));
+        System.out.println(sol.calculateMinimumHP(new int[][]{{1, -3, 3}, {0, -2, 0}, {-3, -3, -3}}));
     }
-
 }
